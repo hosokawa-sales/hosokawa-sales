@@ -135,3 +135,9 @@
     text-align: left;
     white-space: nowrap;
   }
+/* PCではハンバーガーボタンを非表示 */
+@media (min-width: 901px) {
+  .menu-toggle {
+    display: none !important;
+  }
+}
