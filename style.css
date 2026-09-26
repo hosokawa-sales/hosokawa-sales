@@ -1,1 +1,36 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#071b2b;background:#fff;font-family:"Yu Mincho","Hiragino Mincho ProN","Noto Serif JP",serif;line-height:1.7}.wrap{width:min(1180px,calc(100% - 48px));margin:auto}.header{height:78px;background:rgba(255,255,255,.96);position:sticky;top:0;z-index:20;border-bottom:1px solid #dfe8ef}.nav{height:100%;display:flex;align-items:center;justify-content:space-between}.brand-link{display:flex;align-items:center;text-decoration:none;color:#071b2b}.hsp{font-size:48px;line-height:1;margin-right:14px;font-weight:500}.brand-copy{font-size:17px;line-height:1.15}.brand-copy small{display:block;font-size:10px;margin-top:5px;letter-spacing:.08em}.nav-links{display:flex;gap:28px;align-items:center}.nav-links a{color:#071b2b;text-decoration:none;font:700 13px/1.2 -apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif}.nav-btn,.primary{background:#03283d!important;color:#fff!important;padding:13px 26px;border-radius:30px;text-decoration:none;font-weight:700;display:inline-block}.hero{min-height:500px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.8) 46%,rgba(225,242,252,.28) 100%),url('hero.jpg') center/cover no-repeat}.hero-inner{position:relative;padding:58px 0}.hero-copy{max-width:620px}.eyebrow{font-size:12px;letter-spacing:.24em;margin:0 0 12px}.hero h1,.strength h2,.closing h2{font-size:clamp(44px,5.4vw,70px);line-height:1.18;margin:0 0 20px;letter-spacing:.02em}.lead{font-size:17px;margin:0 0 24px}.mission{position:absolute;right:0;bottom:30px;background:rgba(255,255,255,.9);padding:20px 28px;font-size:19px;box-shadow:0 8px 25px rgba(0,0,0,.06)}.service-strip{padding:22px 0;background:#fff}.service-grid{display:grid;grid-template-columns:repeat(4,1fr)}.service-grid article{text-align:center;padding:0 28px;border-right:1px solid #d9dfe3}.service-grid article:last-child{border:0}.service-grid span,.flow-item span{display:inline-grid;place-items:center;width:58px;height:58px;border-radius:50%;background:#fbf1e3;font:24px sans-serif}.service-grid h3{margin:10px 0 5px;font-size:18px}.service-grid p{font:13px/1.7 -apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif;margin:0}.strength{display:grid;grid-template-columns:1.55fr 1fr 1fr;grid-template-rows:230px 230px;background:#061f2d;color:#fff}.strength-intro{grid-row:1/3;padding:42px max(42px,calc((100vw - 1180px)/2)) 30px max(42px,calc((100vw - 1180px)/2));padding-right:38px}.strength h2{font-size:38px}.strength-intro>p{max-width:480px}.light{color:#cbd6dc}.experience{margin-top:20px;border:1px solid #78909c;padding:14px 20px;display:grid;grid-template-columns:1fr 1fr;align-items:center}.experience span{grid-column:1}.experience strong{font-size:66px;line-height:.9}.experience strong small{font-size:18px}.experience b{border-left:1px solid #8ca0aa;padding-left:28px;font-size:16px}.industry{position:relative;background-size:cover;background-position:center;display:flex;align-items:end;min-height:230px}.industry:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 30%,rgba(0,20,30,.78))}.industry div{position:relative;z-index:2;padding:18px 22px}.industry h3{margin:0;font-size:17px}.industry p{font:12px/1.55 -apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif;margin:3px 0 0}.solar{background-image:linear-gradient(135deg,#47758d,#f3b563)}.telecom{background-image:linear-gradient(135deg,#28759a,#cbe9f6)}.bike{background-image:linear-gradient(135deg,#332e2b,#e4a04d)}.alliance{background-image:linear-gradient(135deg,#395d6d,#c7d5d9)}.flow-section{padding:38px 0}.flow-wrap{display:grid;grid-template-columns:1.15fr 1fr auto 1fr auto 1fr;gap:22px;align-items:center}.flow-wrap h2{font-size:32px;margin:0}.flow-wrap>div:first-child>p:last-child{font-size:13px}.flow-item{position:relative}.flow-item b{font-size:28px;position:absolute;top:-8px;left:0}.flow-item span{margin-left:48px}.flow-item h3{font-size:16px;margin:8px 0 2px}.flow-item p{font:12px/1.65 -apple-system,BlinkMacSystemFont,"Noto Sans JP",sans-serif;margin:0}.arrow{font-size:28px}.closing{min-height:320px;padding:42px 0;background:linear-gradient(90deg,rgba(255,250,239,.96),rgba(255,248,231,.7),rgba(255,255,255,.25)),linear-gradient(135deg,#ffe0a3,#80a8ba)}.closing-copy{max-width:1180px}.closing h2{font-size:42px;margin-bottom:8px}.closing p{margin:0 0 18px}.actions{display:flex;gap:28px;align-items:center}.text-link{color:#071b2b;text-decoration:none;font-weight:700}footer{padding:24px 0;font:12px sans-serif;color:#667985}@media(max-width:900px){.nav-links>a:not(.nav-btn){display:none}.hero{background:linear-gradient(135deg,#f7fbfd,#fff)}.mission{position:static;margin-top:28px;max-width:400px}.strength{grid-template-columns:1fr 1fr;grid-template-rows:auto}.strength-intro{grid-column:1/3;grid-row:auto;padding:45px 28px}.flow-wrap{grid-template-columns:1fr 1fr}.arrow{display:none}.service-grid{grid-template-columns:1fr 1fr;gap:26px}.service-grid article:nth-child(2){border:0}}@media(max-width:560px){.wrap{width:calc(100% - 28px)}.header{height:68px}.hsp{font-size:36px}.brand-copy{font-size:12px}.brand-copy small{display:none}.nav-btn{padding:10px 14px!important;font-size:11px!important}.hero-inner{padding:48px 0}.hero h1{font-size:42px}.lead{font-size:15px}.service-grid,.strength,.flow-wrap{display:block}.service-grid article{border:0;border-bottom:1px solid #ddd;padding:22px 10px}.strength-intro{padding:42px 22px}.industry{min-height:220px}.flow-wrap>div{margin-bottom:30px}.flow-item b{position:static;margin-right:12px}.flow-item span{margin-left:0}.closing h2{font-size:36px}.actions{align-items:flex-start;flex-direction:column;gap:15px}}
+.ヒーロー {
+  background-image:
+    linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,.96) 34%, rgba(255,255,255,.20) 58%, rgba(255,255,255,0) 100%),
+    url("hero.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+.ヒーローコピー {
+  width: 48%;
+  max-width: 720px;
+}
+
+.ヒーローコピー h1 {
+  font-size: clamp(52px, 5vw, 78px);
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+
+@media (max-width: 900px) {
+  .ヒーロー {
+    background-position: 65% center;
+  }
+
+  .ヒーローコピー {
+    width: 100%;
+  }
+
+  .ヒーローコピー h1 {
+    font-size: clamp(38px, 8vw, 58px);
+    white-space: normal;
+  }
+}
