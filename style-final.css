@@ -81,40 +81,6 @@
   .nav-links .nav-btn {
     padding: 8px 14px;
   }
-}
-@media (max-width: 900px) {
-  .nav-links {
-    display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px 20px;
-  }
-}
-@media (max-width: 900px) {
-  .nav-links > a:not(.nav-btn) {
-    display: inline-block !important;
-  }
-}
-  .nav-links {
-    width: 100%;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center;
-    gap: 8px 16px !important;
-    padding: 10px 5px;
-  }
-
-  .nav-links > a:not(.nav-btn) {
-    display: inline-block !important;
-    font-size: 12px;
-    white-space: nowrap;
-  }
-
-  .nav-btn {
-    font-size: 12px !important;
-    padding: 7px 12px !important;
-  }
-}
 /* ===== MOBILE HAMBURGER MENU ===== */
 
 .menu-toggle {
