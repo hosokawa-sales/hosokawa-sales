@@ -65,3 +65,20 @@
     font-size:40px;
   }
 }
+@media (max-width: 900px) {
+  .nav-links {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 18px;
+    padding: 12px 10px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .nav-links .nav-btn {
+    padding: 8px 14px;
+  }
+}
