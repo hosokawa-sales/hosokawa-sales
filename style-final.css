@@ -141,3 +141,9 @@
     display: none !important;
   }
 }
+@media screen and (min-width: 901px) {
+  button.menu-toggle {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
