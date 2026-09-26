@@ -44,5 +44,29 @@
 <section id="contact" class="closing"><div class="wrap closing-copy"><p class="eyebrow">FOR A BRIGHTER BUSINESS TOMORROW.</p><h2>出会いが、<br>ビジネスを動かす。</h2><p>これまでの経験と現場で培った営業力で、<br>貴社の課題に合わせた最適なご提案をいたします。</p><div class="actions"><a class="primary" href="mailto:">お問い合わせ →</a><a class="text-link" href="#service">サービス内容を見る →</a></div></div></section>
 </main>
 <footer><div class="wrap">© Hosokawa Sales Partners / HSP</div></footer>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const button = document.getElementById('mobile-menu-button');
+  const menu = document.querySelector('.nav-links');
 
+  function setMenu() {
+    if (window.innerWidth <= 900) {
+      button.style.display = 'block';
+      menu.classList.remove('open');
+      button.textContent = '☰';
+    } else {
+      button.style.display = 'none';
+      menu.classList.remove('open');
+    }
+  }
+
+  button.addEventListener('click', function () {
+    menu.classList.toggle('open');
+    button.textContent = menu.classList.contains('open') ? '✕' : '☰';
+  });
+
+  setMenu();
+  window.addEventListener('resize', setMenu);
+});
+</script>
 </body></html>
