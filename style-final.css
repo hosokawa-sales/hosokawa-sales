@@ -23,7 +23,7 @@
 }
 
 .hero h1{
-  font-size:clamp(46px,4.7vw,70px);
+  font-size:clamp(46px,4.7vw,62px);
   line-height:1.18;
   letter-spacing:.01em;
 }
